@@ -54,15 +54,22 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-header {
+
+.tease {
     position: absolute;
     height: 454px;
     top: 50%;
+    width: 100%;
     margin-top: -227px;
 
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
+}
+
+.tease-content {
+    width: 800px;
+    margin: auto;
 }
 
 
@@ -73,6 +80,7 @@ header {
     line-height: 60px;
     letter-spacing: 4px;
 }
+
 .md,
 .lg {
     color: #fff;
